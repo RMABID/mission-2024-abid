@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+h1{
+    font-family: "Yeseva One", serif;
+
+
+}
+
+
+body{
+    font-family: "poppins", serif;
+    transition: .2s;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+span{
+    color: rgb(255, 173, 90);
+}
+
+.container{
+    padding: 2rem 10%;
+}
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.banner-content h1{
+    font-weight: 400;
+    font-size: 60px;
+    color: rgb(51, 51, 51);
+    transition: .5s;
+}
+.banner-content p{
+    font-size: 1.5rem;
+    color: #999;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+.btn{
+    width: 172px;
+    height: 48px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+    background: rgb(255, 89, 89);
+}
+
+.banner-content a{
+    font-size: 1.5rem;
+    color: #999;
+    padding: 1rem 0;
+   
+}
