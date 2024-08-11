@@ -36,7 +36,7 @@ span{
 }
 
 
-section{
+.banner-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,8 +59,10 @@ section{
 .btn{
     width: 172px;
     height: 48px;
-    margin-bottom: 1rem;
-    border-radius: 5px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+    border-radius: .5rem;
     border: none;
     background: rgb(255, 89, 89);
 }
@@ -70,4 +72,56 @@ section{
     color: #999;
     padding: 1rem 0;
    
+}
+
+
+
+.mission-title h1{
+    font-weight: 700;
+    font-size: 48px;
+text-align: center;
+}
+
+
+.mission-card{
+    display: flex;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+}
+.card{
+    width: 360px;
+    height: 376px;
+    margin-top: 5rem;
+    padding: 1.5rem;
+    border-radius: 26px;
+    background: rgba(79, 157, 166, 0.1);
+}
+.card img{
+    width: 126px;
+    height: 126px;
+}
+.card h1{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    margin-top: 1rem;
+}
+.card p{
+    width: 315px;
+    height: 101px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(66, 66, 66);
+    line-height: 1.6rem;
+    margin-top: 1rem;
+
+}
+#card-2{
+    background: rgba(255, 89, 89, 0.1);
+}
+#card-3{
+    background: rgb(255, 244, 214);
 }
